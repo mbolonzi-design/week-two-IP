@@ -1,4 +1,4 @@
-/*
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +13,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
+/*
 nav > ul, li{
     display: flex;
     justify-content: flex-end;
