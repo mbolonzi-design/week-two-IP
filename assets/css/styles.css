@@ -1,0 +1,39 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-image: url(../images/moving\ 1.png);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+nav > ul, li{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-top: 20px;
+    padding-right: 55px;
+}
+nav > #header{
+    margin: 50px;
+    width: 50%;
+}
+nav > #header > h2{
+    color: #ffff00;
+    font-size: 50px;
+}
+nav > #header > p{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+nav > #header > h2, p{
+    padding: 20px;
+}
+*/
