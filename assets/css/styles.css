@@ -52,3 +52,17 @@ nav > #header > p{
 nav > #header > h2, p{
     padding: 20px;
 }
+/*hustle section styling*/
+#sectHustle, .hustle{
+    display: flex;
+    margin-top: 30px;
+}
+
+#sectHustle > .hustle,  .left, img{
+    height: 400px;
+    width: auto;
+}
+#sectHustle > .hustle,  .right{
+    margin-left: 70px;
+    padding-top: 80px;
+}
