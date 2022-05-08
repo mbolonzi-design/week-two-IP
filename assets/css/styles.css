@@ -215,3 +215,8 @@ div.desc {
     padding-top: 5px;
     text-align: right;
   }
+  #body2 {
+    background-color: rgb(233, 231, 231);
+    padding: 10px 0 10px 50px;
+    align-items: center;
+  }
