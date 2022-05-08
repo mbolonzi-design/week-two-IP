@@ -310,3 +310,54 @@ div.desc {
     color: #FFAC12;
     border-top-right-radius: 15px;
   }
+  .description, .features, .text, .description h3, .features h3 {
+    padding: 20px;
+  }
+  .description, .content ul {
+    color: black;
+    margin-bottom: 25px;
+  }
+  .content, .content ul {
+    justify-content: space-between;
+    margin: 0 50px 10px;
+    list-style: none;
+  }
+  #content ul li {
+    margin: 20px;
+  }
+  .features .ticks {
+    border-radius: 50%;
+    position: relative; 
+    background-color:#FFAC12;
+    border: 1px solid #FFAC12;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+  .listings >.listingImages img, .work img {
+    height: 160px;
+    width: 220px;
+  }
+  .listings, .listingImages {
+    margin-top: 50px;
+    padding-bottom: 20px;
+  }
+  .listingImages table td {
+    padding-left: 3px;
+    padding-top: 6px ;
+    padding-bottom: 6px;
+    border: 1px solid rgb(248, 246, 246);
+  }
+  .listingImages p, .work p {
+    padding: 10px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 400;
+  }
+  .white {
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
