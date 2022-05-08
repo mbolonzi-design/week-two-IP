@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -26,13 +26,13 @@ nav > ul > li, a{
     text-decoration: none;
 }
 nav > ul > li > .loginBtn{
-    background-color: #ffff00;
+    background-color: #FFAC12;
     width: 50px;
     padding: 2px;
 }
 nav > ul > li > .registerBtn{
     background-color: #000000;
-    color: #ffff00;
+    color: #FAFF00;
     width: 70px;
 }
 nav > #header{
@@ -41,28 +41,48 @@ nav > #header{
 }
 
 nav > #header > h2{
-    color: #ffff00;
-    font-size: 50px;
+    color: #FAFF00;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
 }
 nav > #header > p{
     color: #ffffff;
-    font-size: 40px;
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav > #header > h2, p{
     padding: 20px;
 }
 /*hustle section styling*/
-#sectHustle, .hustle{
+.hustle{
     display: flex;
     margin-top: 30px;
 }
-
-#sectHustle > .hustle,  .left, img{
+.hustle > .left, .right{
+    width: 50%;
+}
+.hustle > .left, img{
     height: 400px;
     width: auto;
 }
-#sectHustle > .hustle,  .right{
-    margin-left: 70px;
-    padding-top: 80px;
+.hustle > .right{
+    margin: 100px 0px 0px 50px;
+    width: 40%;
+}
+.hustle > .right h3{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.hustle > .right p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.hustle > .right button{
+    margin-top: 40px;
+    color: #FAFF00;
+    background-color: black;
+    border: none;
+    padding: 12px 20px;
+    border-top-right-radius: 12px;
 }
