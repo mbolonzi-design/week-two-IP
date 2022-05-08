@@ -86,3 +86,33 @@ nav > #header > h2, p{
     padding: 12px 20px;
     border-top-right-radius: 12px;
 }
+/*movers section sytling*/
+#sectMovers{
+    background-color: rgb(233, 230, 230);
+    padding: 50px 50px 30px 50px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+h2{
+    font-size: 38px;
+    margin: 0 0 100px 150px;
+}
+.movers{
+    margin-left: 150px;
+}
+
+.row-1{
+    display: flex;
+}
+.row-2{
+    display: flex;
+}
+.movers img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+div.desc {
+    padding: 15px;
+    text-align: left;
+  }
