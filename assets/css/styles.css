@@ -186,4 +186,20 @@ div.desc {
   }
 
   /*second page styling*/
-  
+  #home {
+    background-color: rgb(15, 2, 2);
+    min-height: 160px;
+  }
+  #home button {
+    margin-left: 15px;
+    background-color: #FFAC12;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  nav > #ul2 {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: small;
+  }
