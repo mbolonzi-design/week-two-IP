@@ -1,0 +1,238 @@
+body{
+    background-color: whitesmoke;
+}
+#home {
+    background-color: rgb(15, 2, 2);
+    min-height: 160px;
+  }
+  #home button {
+    padding: 10px;
+    margin-left: 15px;
+    background-color: #FFAC12;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .navBar > .ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .navBar > .ul, li{
+      list-style: none;
+      padding: 10px;
+  }
+  .modern {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 0px 150px 0px 150px;
+    padding-right: 50px;
+  }
+  .modern p {
+    font-size: x-small;
+    padding-top: 5px;
+    text-align: right;
+  }
+  .album{
+    
+     margin-bottom: 50px;
+     display: flex;
+     margin-left: 150px;
+  }
+  #main, .form{
+      width: 50%;
+  }
+  #mainImage > img{
+    width: 100%;
+    height: auto;
+  }
+  #main{
+      display: block;
+  }
+  .images > img{
+      width: 12%;
+  }
+  .form{
+      width: 18%;
+      margin-left: 20px;
+  }
+  .card{
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    width: 60%;
+    margin: 40px 150px 40px 150px;
+    box-shadow: 2px 2px 5px whitesmoke;
+  }
+  .desc{
+      padding-top: 10px;
+      padding-left: 20px;
+  }
+  .detail_card, span{
+      padding: 20px;
+  }
+  .description{
+      border-radius: 10px;
+      border: 1px solid whitesmoke;
+      width: 60%;
+      margin: 40px 150px 40px 150px;
+      box-shadow: 2px 2px 5px whitesmoke;
+  }
+  .features{
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    width: 60%;
+    margin: 40px 150px 40px 150px;
+    box-shadow: 2px 2px 5px whitesmoke;
+  }
+  .features, h3{
+      padding-left: 20px;
+  }
+  .features, .list > ul > li{
+      display: block;
+      padding: 0;
+  }
+  #list{
+      display: flex;
+  }
+  .listing{
+      display: flex;
+      margin-top: 10px;
+  }
+  .listing, .card img{
+      width: 300px;
+      height: 200px;
+  }
+/*footer styling*/
+footer {
+    background-color: rgb(31, 29, 29);
+    color: white;
+    padding: 20px 70px 20px 70px;
+  }
+  h2, h3, h4{
+    font-weight: bold;
+  }
+  .head {
+    font-size: 28px;
+    margin: 50px 0 80px 10px;
+  }
+  .contactInfo {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 50px 10px;
+  }
+  .contactInfo > .socials, i{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .contactInfo > .socials > li {
+    margin-right: 20px;
+  }
+  .contactInfo > .column {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer >.head {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  footer >.head > button {
+    background-color: #FFAC12;
+    margin: 0 60px;
+    padding: 10px 20px;
+    border-top-right-radius: 12px;
+    height: 50px;
+  }
+  footer  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  #column {
+    padding: 0 0 0 50px;
+  }
+  .author p {
+    text-align: center;
+  }
+  /* tutorial
+  .kayley, .content {
+    display: flex;
+  }
+  .kayley > .room >.image > img {
+    height:450px ;
+    width: 750px;
+    margin: 20px 0;
+  }
+  .room,  .listings{
+    margin-left: 20px;
+  }
+  .images > img {
+    height: 70px;
+    width: 80px;
+    margin-right: 10px;
+  }
+  .details > table, tr, td {
+    padding: 10px 36px;
+    border: 1px solid rgb(233, 231, 231);
+    border-collapse: collapse;
+  }
+  .details {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .details > table, .description, .features {
+    background-color: white;
+    border-radius: 18px;
+  }
+  .details  h3, .description h3, .features h3 {
+    margin: 20px 0 20px;
+    font-weight: 600;
+    padding-left: 37px;
+  } */
+  .kayley >.form {
+    margin: 20px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 15px;
+    max-height: 350px;
+  }
+  .form > .inside {
+    margin: 15px;
+  }
+  .form > .inside > .viewer {
+    background-color: rgb(233, 231, 231);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+  }
+  .form >.inside >.viewer p {
+    font-size: xx-small;
+    margin-top: 3px;
+    color: #FFAC12;
+  }
+  #form, #message {
+    padding: 10px;
+    border: 1px solid rgb(248, 245, 245);
+    margin: 3px 0 10px;
+    border-radius: 5px;
+  }
+  #message {
+    padding: 20px 10px;
+  }
+  #submit {
+    padding: 10px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    color: #FFAC12;
+    border-top-right-radius: 15px;
+  }
+ 
+ 
